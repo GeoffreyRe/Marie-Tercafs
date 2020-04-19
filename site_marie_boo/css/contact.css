@@ -1,0 +1,42 @@
+.main
+{
+    font-size:1.4rem;
+}
+.main a
+{
+    color:lightslategray;
+}
+.main a:visited
+{
+    color:darkslategray;
+}
+
+
+
+/*
+@media(min-width:700px) and (max-width:1020px)
+{
+    .main
+    {
+        font-size:1.1rem;
+    }
+
+    .text-rectangle
+    {
+        min-height:50vh;
+    }
+
+}
+@media(max-width:699px)
+{
+    .main
+    {
+        font-size:1.3rem;
+    }
+    .text-rectangle
+    {
+        min-height:38vh;
+    }
+}
+
+*/

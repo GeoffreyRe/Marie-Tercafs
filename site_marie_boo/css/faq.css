@@ -1,0 +1,53 @@
+.SingleFAQ
+{
+margin:5px;
+}
+/*
+.SingleFAQ h1
+{
+    font-size:1.3em;
+}
+*/
+.Question
+{
+display:inline-block;
+/*font-weight: normal;*/
+/*font-size: 1.6em;*/
+cursor:pointer;
+transition:color 0.7s ease;
+}
+.Question:hover
+{
+color:darkgrey;
+}
+
+
+.Question.Close::before
+{
+content:"+";
+margin-right:10px;
+}
+
+.Question.Open::before
+{
+content:"-";
+margin-right:10px;
+}
+
+.Answer
+{
+font-family:"calibri light";
+border-bottom:solid 1px grey;
+margin:3px;
+height:0;
+overflow:hidden;
+transition:height 0.7s ease;
+font-size:1.2em;
+text-align:justify;
+}
+
+.Answer p
+{
+margin:0 0 10px 0;
+transition:opacity 1s ease;
+}

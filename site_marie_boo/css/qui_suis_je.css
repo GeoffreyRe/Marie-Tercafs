@@ -1,0 +1,10 @@
+.main h1
+{
+    border-bottom:solid 2px lightgray;
+    margin-bottom:1.4rem;
+}
+.main p 
+{
+    margin-bottom:0.8rem;
+    text-align:justify;
+}

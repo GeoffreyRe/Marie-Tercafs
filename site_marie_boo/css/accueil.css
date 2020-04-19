@@ -1,0 +1,133 @@
+
+            .main
+            {
+                min-height:92vh;
+                background-color: whitesmoke;
+                padding-top:2rem;
+                padding-bottom:2.2rem;
+            }
+            .col-12
+            {
+                padding-left: 0;
+                padding-right:0;
+            }
+            img
+            {
+                width:100%;
+            }
+
+            .links a
+            {
+                border:solid 1px black;
+                color:black;
+                font-size:1.2rem;
+                padding:0.4rem;
+                margin:0 0.2rem;
+                transition:all 0.5s ease;
+            }
+
+            .links a:hover
+            {
+                text-decoration: none;
+                color:white;
+                background-color:black;
+            }
+
+            .links div
+            {
+                margin: 1rem 0;
+            }
+            /*
+            @media(min-width:700px) and (max-width:991px){
+                .text-rectangle
+                {
+                    min-height:60vh;
+                }
+
+            }
+            @media(max-width:420px){
+                .text-rectangle
+                {
+                    min-height:37vh;
+                }
+
+                .links div
+                {
+                    margin:10px;
+                }
+
+            }
+            */
+
+            @media(max-width:350px)
+            {
+                .text-rectangle
+                {
+                    min-height:230px;
+                }
+            }
+
+
+            @media(min-width:351px) and (max-width:400px)
+            {
+                .text-rectangle
+                {
+                    min-height:285px;
+                }
+            }
+
+            @media(min-width:401px) and (max-width:500px)
+            {
+                .text-rectangle
+                {
+                    min-height:315px;
+                }
+            }
+
+            @media(min-width:501px) and (max-width:600px)
+            {
+                .text-rectangle
+                {
+                    min-height:345px;
+                }
+            }
+
+            @media(min-width:601px) and (max-width:690px)
+            {
+                .text-rectangle
+                {
+                    min-height:400px;
+                }
+            }
+            @media(min-width:691px) and (max-width:768px)
+            {
+                .text-rectangle
+                {
+                    min-height:440px;
+                }
+            }
+
+            @media(min-width:769px) and (max-width:890px)
+            {
+                .text-rectangle
+                {
+                    min-height:485px;
+                }
+            }
+
+            @media(min-width:890px) and (max-width:991px)
+            {
+                .text-rectangle
+                {
+                    min-height:530px;
+                }
+            }
+
+            @media(max-width:420px){
+
+                .links div
+                {
+                    margin:10px;
+                }
+
+            }

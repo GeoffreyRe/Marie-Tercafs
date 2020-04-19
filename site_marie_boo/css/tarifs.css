@@ -1,0 +1,10 @@
+.border-2
+{
+    border-width: 2px !important;
+}
+
+.main ul
+{
+    list-style-type:circle;
+    list-style-position:inside;
+}

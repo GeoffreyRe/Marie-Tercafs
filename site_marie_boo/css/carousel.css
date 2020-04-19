@@ -1,0 +1,79 @@
+#carouselExampleIndicators{
+    width:80%;
+    /*margin:auto;*/
+}
+.container_main
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+/* Défini la taille des boutons */
+.carousel-control-prev, .carousel-control-next
+{
+    position:static;
+    width:6%;
+    height:10%;
+    
+    
+    
+}
+
+@media (max-width:992px){
+    /*Dans le cas des petits écrans, j'adapte la position pour qu'ils soient moins collés*/
+    .carousel-control-prev, .carousel-control-next
+    {
+        position:static;
+        width:10%;
+        height:5%;
+        
+        
+        
+    }
+
+}
+/* je donne des ordres aux objets du conteneur flex*/
+.carousel-control-prev
+{
+    order:0;
+    
+}
+.carousel-control-next{
+    order:2;
+}
+.carousel
+{
+    order:1;
+}
+/* pour changer la couleur des flêches du carousel*/
+.carousel-control-prev-icon
+{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23969696' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon
+{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23969696' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*je modifie la couleur des indicateurs et des indicateurs 'actifs'*/
+.carousel-indicators li{
+    background-color: rgba(100,100,100,0.8);
+}
+/*Je repositionne les indicateurs pour qu'ils se place en dessous du carousel et qu'il ne soit pas collé à celui-ci*/
+.carousel-indicators {
+    position:relative;
+    bottom:0;
+    margin-bottom:0;
+    margin-top:1rem;
+    
+}
+/*changement couleur des indicateurs actifs*/
+.carousel-indicators .active
+{
+    background-color:rgba(200,200,200,0.8);
+} 
