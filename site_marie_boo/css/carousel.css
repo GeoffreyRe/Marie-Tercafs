@@ -77,3 +77,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 {
     background-color:rgba(200,200,200,0.8);
 } 
+
+.main a:visited {
+    color: darkslategray;
+}
+.main a {
+    color: lightslategray;
+}
